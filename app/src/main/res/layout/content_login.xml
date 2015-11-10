@@ -43,7 +43,7 @@
         android:layout_margin="80dp">
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
@@ -53,46 +53,46 @@
             android:textColor="@android:color/background_light" />
 
         <EditText
-            android:id="@+id/editText"
+            android:id="@+id/edit_username"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/textView2"
-            android:layout_alignStart="@+id/textView2"
-            android:layout_below="@+id/textView2"
-            android:background="@drawable/overlayer" />
+            android:layout_alignLeft="@+id/text_view"
+            android:layout_alignStart="@+id/text_view"
+            android:layout_below="@+id/text_view"
+            android:background="@drawable/border_component" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/text_view2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/editText"
-            android:layout_alignStart="@+id/editText"
-            android:layout_below="@+id/editText"
+            android:layout_alignLeft="@+id/edit_username"
+            android:layout_alignStart="@+id/edit_username"
+            android:layout_below="@+id/edit_username"
             android:layout_marginTop="15dp"
             android:text="Password"
             android:textColor="@android:color/background_light" />
 
         <EditText
-            android:id="@+id/editText2"
+            android:id="@+id/edit_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/textView3"
-            android:layout_alignStart="@+id/textView3"
-            android:layout_below="@+id/textView3"
-            android:background="@drawable/overlayer"
+            android:layout_alignLeft="@+id/text_view2"
+            android:layout_alignStart="@+id/text_view2"
+            android:layout_below="@+id/text_view2"
+            android:background="@drawable/border_component"
             android:password="true"
 
             />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button_login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/editText2"
+            android:layout_below="@+id/edit_password"
 
             android:layout_centerHorizontal="true"
             android:layout_marginTop="15dp"
-            android:background="@drawable/overlayer"
+            android:background="@drawable/border_component"
             android:text="LOGIN" />
 
 

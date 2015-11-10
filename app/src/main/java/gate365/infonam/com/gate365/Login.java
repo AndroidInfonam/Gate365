@@ -12,8 +12,8 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class Login extends AppCompatActivity {
-    Button Login;
-    EditText user,pass;
+    private Button mbtn_login;
+    private EditText met_username, met_password;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,25 +22,16 @@ public class Login extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
-        Login=(Button)findViewById(R.id.button);
-        user=(EditText)findViewById(R.id.editText);
-        pass=(EditText)findViewById(R.id.editText2);
-        Login.setOnClickListener(new View.OnClickListener() {
+        mbtn_login = (Button) findViewById(R.id.button_login);
+        met_username = (EditText) findViewById(R.id.edit_username);
+        met_password = (EditText) findViewById(R.id.edit_password);
+        mbtn_login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(user.getText().toString().equals("admin")&&pass.getText().toString().equals("admin")) {
+                if (met_username.getText().toString().equals("admin") && met_password.getText().toString().equals("admin")) {
                     Intent i = new Intent(Login.this, Gate365Activity.class);
                     startActivity(i);
-                }
-                else Toast.makeText(getApplication(),"error login",Toast.LENGTH_SHORT).show();
+                } else Toast.makeText(getApplication(), "error login", Toast.LENGTH_SHORT).show();
             }
         });
     }

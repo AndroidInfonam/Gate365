@@ -12,7 +12,7 @@ import android.view.MenuItem;
 import android.widget.Button;
 
 public class Gate365Activity extends AppCompatActivity {
-    Button call;
+    private Button mbtn_finish;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,16 +21,9 @@ public class Gate365Activity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
-        call=(Button)findViewById(R.id.button2);
-        call.setOnClickListener(new View.OnClickListener() {
+
+        mbtn_finish = (Button) findViewById(R.id.button_finish);
+        mbtn_finish.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 finish();

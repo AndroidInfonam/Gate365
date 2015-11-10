@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Drawer Menu Items -->
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string-array name="menu_drawer_items">
+        <item >JOURNEYS</item>
+        <item >TRAVEL ALERTS</item>
+        <item >TRAVEL ADVICES</item>
+        <item >COUNTRY RISK</item>
+        <item >TRAVEL TIPS</item>
+        <item >SETTINGS</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <array name="menu_drawer_icons">
+        <item>@drawable/ic_0</item>
+        <item>@drawable/ic_1</item>
+        <item>@drawable/ic_2</item>
+        <item>@drawable/ic_3</item>
+        <item>@drawable/ic_4</item>
+        <item>@drawable/ic_5</item>
+    </array>
+
+    <string name="desc_list_item_icon">Item Icon</string>
+</resources>

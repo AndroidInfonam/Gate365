@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="home_titles">
+        <item >JOURNEYS</item>
+        <item >TRAVEL ALERTS</item>
+        <item >TRAVEL ADVICES</item>
+        <item >COUNTRY RISK</item>
+        <item >TRAVEL TIPS</item>
+        <item >SETTINGS</item>
+    </string-array>
+    <array name="home_icons">
+        <item>@drawable/ic_0</item>
+        <item>@drawable/ic_1</item>
+        <item>@drawable/ic_2</item>
+        <item>@drawable/ic_3</item>
+        <item>@drawable/ic_4</item>
+        <item>@drawable/ic_5</item>
+    </array>
+</resources>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              xmlns:tools="http://schemas.android.com/tools"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent"
-              android:background="@android:color/background_dark"
-              android:orientation="vertical"
-              tools:context="gate365.infonam.com.gate365.Login"
-              tools:showIn="@layout/activity_login">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:orientation="vertical"
+    tools:context="gate365.infonam.com.gate365.Login"
+    tools:showIn="@layout/activity_login">
 
     <include layout="@layout/toolbar" />
 
@@ -25,7 +25,7 @@
             android:layout_width="15dp"
             android:layout_height="match_parent"
             android:layout_weight="0.10"
-            android:background="@drawable/ic_0"/>
+            android:background="@drawable/ic_0" />
 
         <TextView
             android:id="@+id/textView4"
@@ -34,7 +34,7 @@
             android:layout_weight="0.1"
             android:text="LOGIN"
             android:textColor="@android:color/background_dark"
-            android:textSize="17dp"/>
+            android:textSize="17dp" />
     </LinearLayout>
 
     <RelativeLayout
@@ -51,7 +51,7 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:text="Username"
-            android:textColor="@android:color/background_light"/>
+            android:textColor="@android:color/background_light" />
 
         <EditText
             android:id="@+id/edit_username"
@@ -60,7 +60,7 @@
             android:layout_alignLeft="@+id/text_view"
             android:layout_alignStart="@+id/text_view"
             android:layout_below="@+id/text_view"
-            android:background="@drawable/border_component"/>
+            android:background="@drawable/border_component" />
 
         <TextView
             android:id="@+id/text_view2"
@@ -71,7 +71,7 @@
             android:layout_below="@+id/edit_username"
             android:layout_marginTop="15dp"
             android:text="Password"
-            android:textColor="@android:color/background_light"/>
+            android:textColor="@android:color/background_light" />
 
         <EditText
             android:id="@+id/edit_password"
@@ -94,7 +94,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="15dp"
             android:background="@drawable/border_component"
-            android:text="LOGIN"/>
+            android:text="LOGIN" />
 
 
     </RelativeLayout>

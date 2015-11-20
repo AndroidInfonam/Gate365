@@ -10,8 +10,8 @@ import android.widget.Toast;
 
 public class Login extends TimeToolbar {
 
-    private Button mbtn_login;
-    private EditText met_username, met_password;
+    private Button mBtn_login;
+    private EditText mEdit_username, mEdit_password;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,17 +31,17 @@ public class Login extends TimeToolbar {
     @Override
     protected void getWidgets() {
         createToolbar();
-        mbtn_login = (Button) findViewById(R.id.button_login);
-        met_username = (EditText) findViewById(R.id.edit_username);
-        met_password = (EditText) findViewById(R.id.edit_password);
+        mBtn_login = (Button) findViewById(R.id.button_login);
+        mEdit_username = (EditText) findViewById(R.id.edit_username);
+        mEdit_password = (EditText) findViewById(R.id.edit_password);
     }
 
     @Override
     protected void setEvents() {
-        mbtn_login.setOnClickListener(new View.OnClickListener() {
+        mBtn_login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (met_username.getText().toString().equals("admin") && met_password.getText().toString().equals("admin")) {
+                if (mEdit_username.getText().toString().equals("admin") && mEdit_password.getText().toString().equals("admin")) {
                     Intent i = new Intent(Login.this, Gate365Activity.class);
                     startActivity(i);
                 } else Toast.makeText(getApplication(), "error login", Toast.LENGTH_SHORT).show();

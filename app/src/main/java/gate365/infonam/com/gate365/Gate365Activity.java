@@ -112,6 +112,8 @@ public class Gate365Activity extends TimeToolbar {
                 break;
             case 4:
                 //fragment = new Fragment4();
+
+                fragment=new TravelTipsFragment();
                 break;
             case 5:
                 //fragment = new Fragment5();

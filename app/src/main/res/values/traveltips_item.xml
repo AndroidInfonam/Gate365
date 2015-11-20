@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="countryflag">
+
+        <item>@drawable/an</item>
+        <item>@drawable/ad</item>
+        <item>@drawable/ai</item>
+        <item>@drawable/al</item>
+        <item>@drawable/am</item>
+        <item>@drawable/ar</item>
+        <item>@drawable/my</item>
+        <item>@drawable/kr</item>
+        <item>@drawable/jp</item>
+
+
+    </array>
+    <string-array name="countryname">
+        <item>Azerbaijan</item>
+        <item>Andorra</item>
+        <item>Australia</item>
+        <item>Albania</item>
+        <item>Armenia</item>
+        <item>Argentina</item>
+        <item>Malaysia</item>
+        <item>Korea</item>
+        <item>Japan</item>
+    </string-array>
+    <array name="flightstate">
+        <item>@drawable/_r_extreme</item>
+        <item>@drawable/_r_high</item>
+        <item>@drawable/_r_extreme</item>
+        <item>@drawable/_r_medium</item>
+        <item>@drawable/_r_extreme</item>
+        <item>@drawable/_r_high</item>
+        <item>@drawable/_r_extreme</item>
+        <item>@drawable/_r_medium</item>
+        <item>@drawable/_r_extreme</item>
+
+    </array>
+    <array name="iconnext">
+        <item>@drawable/_next</item>
+    </array>
+
+
+</resources>

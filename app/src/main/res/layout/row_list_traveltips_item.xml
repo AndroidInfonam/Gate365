@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#333333"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:weightSum="100">
+
+
+    <ImageView
+        android:id="@+id/img_countryflag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:src="@drawable/an" />
+
+    <TextView
+        android:id="@+id/text_countryname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="40"
+        android:text="Azerbaijan"
+        android:textColor="#ffffff"
+
+        />
+
+    <ImageView
+        android:id="@+id/img_flightstate"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:src="@drawable/_r_extreme" />
+
+    <ImageButton
+        android:id="@+id/imgbtn_iconnext"
+        android:layout_width="20dp"
+        android:layout_height="40dp"
+        android:layout_weight="20"
+        android:background="#333333"
+        android:clickable="false"
+        android:src="@drawable/_next" />
+</LinearLayout>

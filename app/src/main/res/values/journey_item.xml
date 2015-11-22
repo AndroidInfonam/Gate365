@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="take_off_plane">
+
+        <item>@drawable/_take_off_plane</item>
+        <item>@drawable/_take_off_plane2</item>
+
+    </array>
+    <string-array name="cityOfCountry">
+        <item>Azerbaijan</item>
+        <item>Andorra</item>
+        <item>Australia</item>
+        <item>Albania</item>
+        <item>Armenia</item>
+        <item>Argentina</item>
+        <item>Malaysia</item>
+        <item>Korea</item>
+        <item>Japan</item>
+    </string-array>
+    <array name="flightstate2">
+        <item>@drawable/_r_extreme</item>
+        <item>@drawable/_r_high</item>
+        <item>@drawable/_r_extreme</item>
+        <item>@drawable/_r_medium</item>
+        <item>@drawable/_r_extreme</item>
+        <item>@drawable/_r_high</item>
+        <item>@drawable/_r_extreme</item>
+        <item>@drawable/_r_medium</item>
+        <item>@drawable/_r_extreme</item>
+
+    </array>
+    <array name="journeyDetail">
+        <item>@drawable/_next</item>
+    </array>
+</resources>

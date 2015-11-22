@@ -99,7 +99,7 @@ public class Gate365Activity extends TimeToolbar {
         Fragment fragment = null;
         switch (position) {
             case 0:
-                //fragment = new JourneysFragment();
+                fragment = new JourneysFragment();
                 break;
             case 1:
                 //fragment = new Fragment1();

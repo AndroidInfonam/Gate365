@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#333333"
+              android:gravity="center_vertical"
+              android:orientation="horizontal"
+              android:weightSum="100">
+
+
+    <ImageView
+        android:id="@+id/flightTakeOffPlaneImageView"
+        android:layout_width="18dp"
+        android:layout_height="30dp"
+        android:src="@drawable/_take_off_plane"/>
+
+    <TextView
+        android:id="@+id/cityOfCountryTextView"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Azerbaijan"
+        android:textColor="#ffffff"/>
+
+    <ImageView
+        android:id="@+id/flightStateImageView"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/_r_extreme"/>
+
+    <ImageButton
+        android:id="@+id/detailJourneyButton"
+        android:layout_width="20dp"
+        android:layout_height="40dp"
+        android:background="#333333"
+        android:clickable="false"
+        android:src="@drawable/_next"/>
+</LinearLayout>
